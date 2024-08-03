@@ -12,7 +12,7 @@ import google.generativeai as genai
 
 
 st.set_page_config(
-        page_icon="media\logo3.png",
+        page_icon="media/logo3.png",
         page_title="All in one Calualtor | app",
         layout="wide"
 
@@ -332,7 +332,7 @@ def home_page():
 
 
 with st.sidebar:
-    st.image("media\logo3.png", use_column_width=True)
+    st.image("media/logo3.png", use_column_width=True)
 
 
     # Adding a custom style with HTML and CSS
